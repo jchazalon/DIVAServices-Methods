@@ -13,10 +13,10 @@ unzip $inputZip -d train
 # Execute the method
 /ocropy/ocropus-rtrain -q -l $lineheight -N $trainIterations -F $saveFreq -c train/*.gt.txt -o trainedModel train/*.bin.png
 
-#Perform Post-Processing
+# Perform Post-Processing
 /data/plot_train_err.py *.pyrnn.gz
 
-
+# Reading results
 minError=$(cat trainedModel-error.txt | jq -r '.minimum.error')
 minModel=$(cat trainedModel-error.txt | jq -r '.minimum.name')
 lastError=$(cat trainedModel-error.txt | jq -r '.last.error')
