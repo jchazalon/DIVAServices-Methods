@@ -1,0 +1,42 @@
+{
+	"output": [
+		{
+			"file": {
+				"mime-type": "image/png",
+				"name": "trainingError.png",
+				"options": {
+					"type": "color",
+					"visualization": true
+				},
+				"url": "http://divaservices.unifr.ch/api/v2/results/consideratepalelynx/data_0/trainingError.png"
+			}
+		},
+		{
+			"file": {
+				"mime-type": "application/x-compressed",
+				"name": "minModel.pyrnn.gz",
+				"options": {
+					"type": "ocromodel",
+					"visualization": false,
+					"error": "35.29833449714185"
+				},
+				"url": "http://divaservices.unifr.ch/api/v2/results/consideratepalelynx/data_0/minModel.pyrnn.gz"
+			}
+		},
+		{
+			"file": {
+				"mime-type": "application/x-compressed",
+				"name": "lastModel.pyrnn.gz",
+				"options": {
+					"type": "ocromodel",
+					"visualization": false,
+					"error": "113.54199944796802"
+				},
+				"url": "http://divaservices.unifr.ch/api/v2/results/consideratepalelynx/data_0/lastModel.pyrnn.gz"
+			}
+		}
+	],
+	"status": "done",
+	"resultLink": "http://divaservices.unifr.ch/api/v2/results/consideratepalelynx/data_0/data_0.json",
+	"collectionName": "consideratepalelynx"
+}
